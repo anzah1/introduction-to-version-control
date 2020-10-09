@@ -81,8 +81,8 @@ of features:
 
 - branches work like tags, but they have few important differences
 
-  - branches make it possible history non linear, so relation between commits
-    has more tree like structure because branching
+  - branches make it possible have non linear history, so relation between
+    commits has more tree like structure because branching
 
   - they can be though of kind of alternate timelines
 
@@ -101,11 +101,16 @@ of features:
 
 ## clone
 
-- clone with get copy of the repository to your machine
+- clone will get copy of the repository to your machine
+
+- clone doesn't have to be remote machine, you can also clone repositories from
+  your own machine
 
 ## push and pull
 
 - push and pull are used to share changes between repositories
+
+- nothing gets automatically shared
 
 # Distributed VS centralized version control
 
